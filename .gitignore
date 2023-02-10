@@ -1,5 +1,7 @@
 # Adding config file
 api_keys.py
+CBR_api_key.py 
+config1.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
