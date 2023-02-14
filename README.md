@@ -4,13 +4,13 @@ Project Title: Analysis of U.S. Unemployment Rates (2018to 2022)
 
 
 Collaborators: 
-	• Crisaldry Brito - https://github.com/Crisaldry
-	• Ivan Galeano - https://github.com/igaleano2
-  	• Angela Narag - https://github.com/angelanarag
+1. Crisaldry Brito - https://github.com/Crisaldry
+2. Ivan Galeano - https://github.com/igaleano2
+3. Angela Narag - https://github.com/angelanarag
 
 
 Project Description:
-Analyze the unemployment rates across the U.S. within the last 5 years by time, geography, industry including factors that have contributed to the unemployment rate. 
+- Analyze the unemployment rates across the U.S. within the last 5 years by time, geography, industry including factors that have contributed to the unemployment rate. 
 
 
 How to Use the Project:
@@ -24,7 +24,7 @@ The project has four different codes
 	- This code is dependent on the output from the bls_api_merge_CSV.ipynb file and should run after that code creates the output files.  Once the output files are created, it can run independently and has no dependencies on other codes in this project.
 	- Uses the Unemployment_Rates.csv file and the Merged_Covid_CPI.csv file to analyze the national Unemployment Rate, Part-Time Workers Unemployment, Full-Time Workers Unemployment, Covid19 Case numbers, and CPI
 	- Produces 5 chart images: Unemployment_vs_CPI_2018-2022.png, Unemployment_vs_Covid19_2018-2022.png, Unemployment_Seas_Unadj_2018-2022.png, Unemployment_Seas_Part&Fulltime_2018-2022, Unemployment_Rates_2018-2022_BoxPlot.png
-3. Unemployment_Analysis_Crisaldry.ipynb
+3. Unemployment_Analysis_By_State_Crisaldry.ipynb
 	- This code is dependent on the output from the bls_api_merge_CSV.ipynb file and should run after that code creates the output files.  Once the output files are created, it can run independently and has no dependencies on other codes in this project.
 	- Uses the Unemployment_Rates.csv file to analyze unemployment at the U.S. state level and creates a sample map using the statelatlong.csv file.
 	- Produces several charts: Average Unemployment Rate in the United States (2018 - 2022) Bar Graph.png, Average Unemployment Rate in the United States (2018 - 2022) Scatter Plot.png, Average Unemployment Rate in the United States (2018 - 2022) line Graph.png, Average Unemployment Rate in the United States (2018 - 2022).png, Average Unemployment Rate in the United States (2018 and 2020).png, Average Unemployment Rate in the United States (2020 and 2022).png, Outlier States (2018-2022) 2.png, Outlier States (2018-2022).png, Percent Change in Unemployment Rates (2018 and 2020).png, Percent Change in Unemployment Rates (2020 and 2022).png, sample_map.png, verage Unemployment Rate in the United States (2018 - 2022) Scatter Plot.png
@@ -75,7 +75,7 @@ Analysis Results:
 	- Throughout 2020, unemployment steadily declined from its peak to 6.7% in December 2020 and is back to 3.5% in December 2022
 	- Part-Time workers were disproportionately impacted by the Covid19 shutdowns, at the peak, the Part-Time workers unemployment rate was 24.3% compared to Full-Time workers at 12.9% and the national rate of 14.7%
 	- Based on the Pearson’s Correlation, Unemployment Rates and Covid19 Cases have a correlation coefficient of less than < 0.3, which means there is no correlation, or it is very weak, even though there is consensus that the Covid19 pandemic was the main reason for the large spike in unemployment in 2020. Therefore, simply comparing the number of Covid19 cases by itself to the Unemployment Rate is not enough to show correlation. We must also look at other factors such as industry, state, number of remote workers, etc. to get an overall better picture of the cause of unemployment.
-	- A well-known indicator of inflation is the Consumer Price Index (CPI), a measure of the average change overtime in the prices paid by urban consumers for a market basket of consumer goods and services. The correlation coefficient of Unemployment Rate and CPI is -0.2 which proves the negative correlation, but it is still less than < 0.3 which can mean there is no correlation, or it is very weak. However, if only look from April 2020 to December 2022, the correlation coefficient becomes tighter
+	- A well-known indicator of inflation is the Consumer Price Index (CPI), a measure of the average change overtime in the prices paid by urban consumers for a market basket of consumer goods and services. The correlation coefficient of Unemployment Rate and CPI is -0.2 which proves the negative correlation, but it is still less than < 0.3 which can mean there is no correlation, or it is very weak. However, if only look from April 2020 to December 2022, the correlation coefficient becomes stronger at -0.68.
 
 2. Employment Rate by State
 	- The U.S has saw dramatic changes in the unemployment rates by states in the last 5 years.
