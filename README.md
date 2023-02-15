@@ -14,21 +14,23 @@ Collaborators:
 
 
 **How to Use the Project:**
-**The project has four different codes** 
-**1. bls_api_merge_CSV.ipynb**
+
+##### The project has four different codes 
+
+1. bls_api_merge_CSV.ipynb**
 	- This is the main code for data collection and clean up and should run first.  
 	- It pulls the Unemployment Rate data from the Bureau of Labor Statistic API and puts all the data together into a CSV file called Unemployment_Rates.csv file 
 	- It takes the CONVENIENT_us_confirmed_cases.csv file (U.S. daily Covid19 case count by Counties) downloaded from Kaggle.com and cleans the data to create the new_covid19.csv and Aggregated_Covid19.csv files.  
 	- It takes the CPIAUCSL.csv file (Monthly CPI data) downloaded from FRED - Federal Reserve - website and cleans the data to be merged with the Aggregated Covid19 data to produce the Merged_Covid_CPI.csv file
-**2. Unemployment_Analysis_Angela.ipynb**
+2. Unemployment_Analysis_Angela.ipynb
 	- This code is dependent on the output from the bls_api_merge_CSV.ipynb file and should run after that code creates the output files.  Once the output files are created, it can run independently and has no dependencies on other codes in this project.
 	- Uses the Unemployment_Rates.csv file and the Merged_Covid_CPI.csv file to analyze the national Unemployment Rate, Part-Time Workers Unemployment, Full-Time Workers Unemployment, Covid19 Case numbers, and CPI
 	- Produces 5 chart images: Unemployment_vs_CPI_2018-2022.png, Unemployment_vs_Covid19_2018-2022.png, Unemployment_Seas_Unadj_2018-2022.png, Unemployment_Seas_Part&Fulltime_2018-2022, Unemployment_Rates_2018-2022_BoxPlot.png
-**3. Unemployment_Analysis_By_State_Crisaldry.ipynb**
+3. Unemployment_Analysis_By_State_Crisaldry.ipynb
 	- This code is dependent on the output from the bls_api_merge_CSV.ipynb file and should run after that code creates the output files.  Once the output files are created, it can run independently and has no dependencies on other codes in this project.
 	- Uses the Unemployment_Rates.csv file to analyze unemployment at the U.S. state level and creates a sample map using the statelatlong.csv file.
 	- Produces several charts: Average Unemployment Rate in the United States (2018 - 2022) Bar Graph.png, Average Unemployment Rate in the United States (2018 - 2022) Scatter Plot.png, Average Unemployment Rate in the United States (2018 - 2022) line Graph.png, Average Unemployment Rate in the United States (2018 - 2022).png, Average Unemployment Rate in the United States (2018 and 2020).png, Average Unemployment Rate in the United States (2020 and 2022).png, Outlier States (2018-2022) 2.png, Outlier States (2018-2022).png, Percent Change in Unemployment Rates (2018 and 2020).png, Percent Change in Unemployment Rates (2020 and 2022).png, sample_map.png, verage Unemployment Rate in the United States (2018 - 2022) Scatter Plot.png
-**4. Unemployment_Analysis_Ivan.ipnyb**
+4. Unemployment_Analysis_Ivan.ipnyb
 	- This code is dependent on the output from the bls_api_merge_CSV.ipynb file and should run after that code creates the output files.  Once the output files are created, it can run independently and has no dependencies on other codes in this project.
 	- Uses the Unemployment_Rates.csv file to analyze unemployment rates in three industries: Healthcare, Finance, Hospitality
 	- Supplements the analysis with Layoffs by Industry data 
@@ -68,7 +70,8 @@ Collaborators:
 3. 	Employment Rate by Industry - Ivan
 
 
-**Analysis Results:**
+##### Analysis Results:
+
 **1.	National Employment Rate**
 	- U.S. unemployment was at a low of 3.5% in February 2020 before a sharp increase to 14.7% in April 2020.
 	- There is consensus that the Covid19 pandemic had significant impact on the labor market leading to widespread job losses.
