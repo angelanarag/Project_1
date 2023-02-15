@@ -1,20 +1,20 @@
 # Project_1
 
-Project Title: Analysis of U.S. Unemployment Rates (2018to 2022)
+**##Project Title: Analysis of U.S. Unemployment Rates (2018to 2022)##**
 
 
 Collaborators: 
-1. Crisaldry Brito - https://github.com/Crisaldry
-2. Ivan Galeano - https://github.com/igaleano2
-3. Angela Narag - https://github.com/angelanarag
+1. **Crisaldry Brito** - https://github.com/Crisaldry
+2. **Ivan Galeano** - https://github.com/igaleano2
+3. **Angela Narag**- https://github.com/angelanarag
 
 
-Project Description:
+**#Project Description:#**
 - Analyze the unemployment rates across the U.S. within the last 5 years by time, geography, industry including factors that have contributed to the unemployment rate. 
 
 
-How to Use the Project:
-The project has four different codes 
+**How to Use the Project:**
+**The project has four different codes** 
 1. bls_api_merge_CSV.ipynb
 	- This is the main code for data collection and clean up and should run first.  
 	- It pulls the Unemployment Rate data from the Bureau of Labor Statistic API and puts all the data together into a CSV file called Unemployment_Rates.csv file 
@@ -35,7 +35,7 @@ The project has four different codes
 	- Produces several charts
 
 
-Data Sources:
+**Data Sources:**
 1. Bureau of Labor Statistic API
 	- Unemployment Rates:	https://www.bls.gov/developers/api_python.htm
 2. Kaggle.com
@@ -47,7 +47,7 @@ Data Sources:
 	- Longitude/Latitude information:	https://www.geoapify.com/geocoding-api?gclid=CjwKCAiA3KefBhByEiwAi2LDHP74Kb1XvOGeVsNzE-rpHgn4L7z9nRDROL3We5eWaXtjy_Ivktpi6hoCEMgQAvD_BwE
 
 
-Project Questions
+**Project Questions**
 1. What is the national unemployment rate from 2018 to 2022?
 	a.	Are there significant peaks and troughs?
 	b. 	Did the Covid19 pandemic impact unemployment?
@@ -62,13 +62,13 @@ Project Questions
 	c.	Perform in-depth analysis and comparison of each industry's unemployment rates  
 
 
-Project Assignment: 
+**Project Assignment:**
 1.	National Employment Rate by Time - Angela
 2. 	Employment Rate by State - Crisaldry
 3. 	Employment Rate by Industry - Ivan
 
 
-Analysis Results:
+**Analysis Results:**
 1.	National Employment Rate
 	- U.S. unemployment was at a low of 3.5% in February 2020 before a sharp increase to 14.7% in April 2020.
 	- There is consensus that the Covid19 pandemic had significant impact on the labor market leading to widespread job losses.
